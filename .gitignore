@@ -1,0 +1,23 @@
+# API keys and local configuration
+.env
+.streamlit/secrets.toml
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+# Local working database (the committed demo DB is synthetic; keep local
+# research runs, which may contain real personal data, out of the repo)
+data/firemind_gtm_local.db
+*.db-journal
+.env.local
+
+# Work product — sent to the client, not published
+Target-Account-List.md
+
+# Work product — sent to the client, not published
+Target-Account-List.md
+data/research_cache/
+*.db.bak

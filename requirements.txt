@@ -1,0 +1,4 @@
+pandas
+streamlit
+tavily-python
+python-dotenv
